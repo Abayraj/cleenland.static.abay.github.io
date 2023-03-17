@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    
+}
+.header-top{
+    height: 5rem;
+    background-color: rgb(255, 255, 255);
+    font-family:monospace;
+    display: flex;
+    justify-content: space-around;
+}
+.header-text,a{
+    color: black;
+    margin-top: 55px;
+  width: auto;
+text-align: center;
+
+}
+.header-image{
+    margin-top: 25px;
+    margin-left: 48px;
+}
+
+.header-text a{
+padding: 5px;
+font-family:monospace;
+font-size:13px;
+text-decoration: none;
+}
+.header-text a:hover{
+    color: gainsboro;
+}
+.header-text-center{
+    margin-top: 110px;
+    margin-right: 25px;
+    font-family: monospace;
+    font-size:16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-one-div{
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-one-h2-div{
+   margin-top: 5rem;
+}
+.section-one-h2-div h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    
+}
+.p{
+    font-family:monospace;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+.s2-div{
+    position: relative;
+    top: 7rem;
+    height: 30rem;
+    background-color: rgb(229, 230, 230);
+}
+.span-tag-s2 .g-1s{
+    text-decoration-line:underline;
+    text-decoration-thickness:15%;
+    font-weight: 4rem;
+    font-family:  serif;
+   position: relative;
+    left: 15rem;
+    top: 4rem;
+}
+
+
+.grid-s2{
+    position: relative;
+    top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 55px;
+    grid-template-rows: 30rem 41rem;
+    width: auto;
+    height: 35rem;
+    
+}
+.grid-one-text{
+    position: absolute;
+    top: 8rem;
+    left: 9rem;
+    font-size: 3rem;
+    text-decoration: underline;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+.text-2{
+    position: absolute;
+    font-size: 20px;
+    top: 16rem;
+    left: 16rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text-3{
+    position: absolute;
+    font-size: 20px;
+    top: 20rem;
+    left: 15rem;
+    font-family:monospace,sans-serif;
+}
+.list li{
+    list-style: none;
+    margin-top: 2rem;
+    padding-top:2rem ;
+    
+}
+.para-g1{
+    position: relative;
+    top: 5rem;
+    right: 12rem;
+    font-family:monospace;
+    font-size: 19px;
+    margin-top: 2rem;
+}
+.i-frame{
+    position:absolute;
+    top: 16rem;
+    left: 45rem;
+    -webkit-filter: grayscale(100%);
+     -moz-filter: grayscale(100%);
+     -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+      filter: grayscale(100%); 
+}
+.rs-logo{
+    position: absolute;
+    left: 52rem;
+    top: 46rem;
+    
+}
+.input-box form{
+    position: relative;
+    top: 1rem;
+    width: 5rem;
+    height: 5rem;
+    border: 1px;
+
+}
+.input-box .p1-inputbox{
+    font-family: monospace;
+    font-size:1rem;
+    position: relative;
+    top: 20px;
+    right: 6rem;
+    font-family: monospace;
+    
+}
+.input-box .p2-inputbox{
+    font-size: 12px;
+    font-family: monospace;
+    margin-top: 2rem;
+    margin-right:7rem;
+
+}
+.input-box{
+    position: absolute;
+    top: 140rem;
+    left: 30rem;
+    font-size:25px;
+    font-family: monospace;
+}
+.input-box h2{
+    margin-left: 3rem;
+
+}
+input[type=text]{
+    font-family:monospace,sans-serif;
+    margin-top: 2rem;
+    width: 15rem;
+    height:60%
+
+    
+}
+.input-box-button{
+    position: relative;
+    left: 16rem;
+    bottom: 3rem;
+    width: 8rem;
+    height: 3rem;
+    color: black;
+    background-color: transparent;
+}
+.input-box-button:hover{
+    background-color: black;
+    color: #fff;
+}
+.p2-inputbox{
+    font-family: monospace;
+    text-align: center;
+    margin-top: 1rem;
+}
+.footer-div{
+    position:relative;
+    top: 92rem;
+    display: flex;
+}
+.footer-child-1{
+  font-family: monospace;
+  margin-left: 3rem;
+  max-width:20rem;
+}
+.footer-child-1 p{
+    position: relative;
+    top: 2rem;
+   
+}
+
+.footer-chid2-p{
+    position: relative;
+    left: 3rem;
+    text-align: center; 
+    height: 30rem;
+}
+.footer-chid2-p span{
+    font-family: monospace,sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 1rem;
+    left: 6rem;
+   line-height: 2rem;
+}
+.footer-icons{
+    position: relative;
+  bottom: 20rem;
+    left: 20rem;
+}
+    
+
